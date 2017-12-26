@@ -77,3 +77,4 @@ telegram.jpg
 # Exclude .exrc file for Vim
 .exrc
 trading_bot/bot_local_config.py
+trading_bot/kuna_api_access/kuna_local_config.py
