@@ -2,9 +2,9 @@ from telegram.ext import Updater
 from telegram.ext import CommandHandler
 import logging
 
-from trading_bot.bot_local_config import *
+import trading_bot.bot_local_config as cfg
 
-updater = Updater(token=BOT_TOKEN)
+updater = Updater(token=cfg.BOT_TOKEN)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
